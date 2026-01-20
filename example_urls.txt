@@ -1,0 +1,20 @@
+# Example URLs for testing the forensic analysis tool
+# Lines starting with # are ignored
+# URLs can be with or without http/https scheme
+
+# Legitimate sites (for testing)
+https://www.microsoft.com
+https://login.microsoftonline.com
+google.com
+
+# Example phishing-like patterns (DO NOT USE REAL PHISHING URLs)
+# These are just format examples - replace with actual URLs from your investigation
+
+# Common phishing patterns to watch for:
+# - Suspicious subdomains: account-verify.example.com
+# - Lookalike domains: micros0ft.com (zero instead of o)
+# - URL shorteners: bit.ly/xxxxx
+# - Typosquatting: gooogle.com
+# - Free hosting: something.000webhostapp.com
+
+# Add your suspicious URLs here (one per line):
