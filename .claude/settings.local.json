@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd forensic email link analysis tool\n\n- Complete bash script for passive phishing/malware URL analysis\n- Features: HTTP collection, DNS resolution, TLS inspection, content analysis\n- Security-focused: no exploitation, controlled timeouts, size limits\n- Automated reporting with IOCs and suspicious indicators\n- SHA256 chain of custody for all artifacts\n- Comprehensive documentation and examples\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
+    ]
+  }
+}
