@@ -1,0 +1,19 @@
+# Risk Score Calculation
+# Timestamp: 2026-01-29 18:11:19 UTC
+
+## Score Breakdown
+
+| Category | Raw Score | Weighted |
+|----------|-----------|----------|
+| Content Analysis | 17 | 34/40 |
+| URL Structure | 0 | 0/20 |
+| Certificate | 0 | 0/15 |
+| Security Headers | 2 | 2/10 |
+| Redirects | 0 | 0/15 |
+
+## Final Risk Score: 36/100
+
+Risk Level: 🟠 MEDIUM
+
+RISK_SCORE=36
+RISK_LEVEL=MEDIUM

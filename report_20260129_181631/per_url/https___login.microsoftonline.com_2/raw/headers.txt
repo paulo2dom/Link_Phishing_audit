@@ -1,0 +1,35 @@
+HTTP/2 200 
+cache-control: no-store, no-cache
+pragma: no-cache
+content-length: 23195
+content-type: text/html; charset=utf-8
+expires: -1
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+link: <https://aadcdn.msauth.net>; rel=preconnect; crossorigin
+link: <https://aadcdn.msauth.net>; rel=preconnect; crossorigin,<https://aadcdn.msauth.net>; rel=dns-prefetch
+link: <https://aadcdn.msauth.net>; rel=preconnect; crossorigin,<https://aadcdn.msauth.net>; rel=dns-prefetch,<https://aadcdn.msftauth.net>; rel=dns-prefetch
+x-dns-prefetch-control: on
+p3p: CP="DSP CUR OTPi IND OTRi ONL FIN"
+x-ms-request-id: f3f0d918-d959-44c3-9ab2-34e90b2b3e00
+x-ms-ests-server: 2.1.23228.8 - FRC ProdSlices
+report-to: {"group":"network-errors","max_age":86400,"endpoints":[{"url":"https://identity.nel.measure.office.net/api/report?catId=GW+estsfd+SEC"}]}
+nel: {"report_to":"network-errors","max_age":86400,"success_fraction":0.001,"failure_fraction":1.0}
+x-ms-srs: 1.P
+referrer-policy: strict-origin-when-cross-origin
+content-security-policy-report-only: object-src 'none'; base-uri 'self'; script-src 'self' 'nonce-Fp-gtKXMBCcVzBqxO9RTYw' 'unsafe-inline' 'unsafe-eval' https://*.msauth.net https://*.msftauth.net https://*.msftauthimages.net https://*.msauthimages.net https://*.msidentity.com https://*.microsoftonline-p.com https://*.microsoftazuread-sso.com https://*.azureedge.net https://*.outlook.com https://*.office.com https://*.office365.com https://*.microsoft.com https://*.bing.com 'report-sample'; report-uri https://csp.microsoft.com/report/ESTS-UX-All
+x-xss-protection: 0
+set-cookie: fpc=AvSM78eNwVxHq32zm5eUg0U; expires=Sat, 28-Feb-2026 18:16:33 GMT; path=/; secure; HttpOnly; SameSite=None
+set-cookie: esctx=PAQABBwEAAACvnsHKEvvRQb3Bz3Qc7wnazpBSg-kuHwviVSwrm1hqf34s2a3baYL35mS6cWkdNccC9emJJzdvbZi9HvubEPPE1wpvUo5fAHGoWyHZO1vnh5DMkfPGHG3l-4oOHg58J0NC_dri3YfSPA9LzMhdLOxzcBE_3NIsyZPUUqVFPfHI28vXU7D089lQXG8hUt1GkqwgAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None
+set-cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly
+set-cookie: stsservicecookie=estsfd; path=/; secure; samesite=none; httponly
+date: Thu, 29 Jan 2026 18:16:32 GMT
+
+
+
+# CURL INFO:
+http_code: 200
+effective_url: https://login.microsoftonline.com/
+redirect_count: 0
+size_download: 0
+time_total: 0.289360

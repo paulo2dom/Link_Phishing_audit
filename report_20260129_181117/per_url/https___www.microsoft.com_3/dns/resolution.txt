@@ -1,0 +1,42 @@
+# DNS Resolution for: www.microsoft.com
+# Timestamp: 2026-01-29 18:11:21 UTC
+
+## A Records (IPv4):
+www.microsoft.com-c-3.edgekey.net.
+www.microsoft.com-c-3.edgekey.net.globalredir.akadns.net.
+e13678.dscb.akamaiedge.net.
+72.247.166.29
+
+## AAAA Records (IPv6):
+www.microsoft.com-c-3.edgekey.net.
+www.microsoft.com-c-3.edgekey.net.globalredir.akadns.net.
+e13678.dscb.akamaiedge.net.
+2a02:26f0:2380:5b2::356e
+2a02:26f0:2380:587::356e
+
+## CNAME Records:
+www.microsoft.com-c-3.edgekey.net.
+
+## Full A Record Query:
+
+; <<>> DiG 9.20.15-2-Debian <<>> +time=3 +tries=2 A www.microsoft.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11094
+;; flags: qr rd ad; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;www.microsoft.com.		IN	A
+
+;; ANSWER SECTION:
+www.microsoft.com.	0	IN	CNAME	www.microsoft.com-c-3.edgekey.net.
+www.microsoft.com-c-3.edgekey.net. 0 IN	CNAME	www.microsoft.com-c-3.edgekey.net.globalredir.akadns.net.
+www.microsoft.com-c-3.edgekey.net.globalredir.akadns.net. 0 IN CNAME e13678.dscb.akamaiedge.net.
+e13678.dscb.akamaiedge.net. 0	IN	A	72.247.166.29
+
+;; Query time: 4 msec
+;; SERVER: 172.26.160.1#53(172.26.160.1) (UDP)
+;; WHEN: Thu Jan 29 18:11:21 WET 2026
+;; MSG SIZE  rcvd: 340
+

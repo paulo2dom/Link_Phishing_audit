@@ -1,0 +1,47 @@
+# Content Analysis
+# Timestamp: 2026-01-29 18:16:34 UTC
+
+## Brand Impersonation Detection
+
+  🏢 Microsoft mentioned: 2 times
+
+## Urgency & Fear Language
+
+  ⚠️  'expire': 1
+URGENCY_SCORE=1
+
+## Credential Harvesting Indicators
+
+Forms found: 0
+🚨 Credit card related fields: 1
+CREDENTIAL_FIELDS=0
+
+## Obfuscation Detection
+
+ℹ️  Minified/packed content detected (1 long lines)
+✓ No significant obfuscation detected
+OBFUSCATION_SCORE=0
+
+## Redirect & Tracking Analysis
+
+⚠️  JavaScript redirects: 3
+⚠️  Data transmission methods: 1
+
+## Script Analysis
+
+Script tags: 5
+External scripts:
+  → https://aadcdn.msftauth.net/shared/1.0/content/js/BssoInterrupt_Core_ZdehiqMaZbamNI
+
+## External Resources (top 15)
+
+href="/error.aspx
+src="https://aadcdn.msftauth.net/shared/1.0/content/js/BssoInterrupt_Core_ZdehiqMaZbamNI2
+
+## Content Risk Summary
+
+Total Content Risk Score: 9
+Brands Mentioned: 1
+Urgency Indicators: 1
+Password Fields: 0
+CONTENT_RISK_SCORE=9

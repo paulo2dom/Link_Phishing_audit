@@ -1,0 +1,77 @@
+HTTP/2 302 
+cache-control: no-store, no-cache
+pragma: no-cache
+content-type: text/html; charset=utf-8
+expires: -1
+location: https://www.office.com/login#
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+p3p: CP="DSP CUR OTPi IND OTRi ONL FIN"
+x-ms-request-id: 026eff08-5e5f-40ad-95a9-4c889ebc5800
+x-ms-ests-server: 2.1.23228.8 - NEULR1 ProdSlices
+report-to: {"group":"network-errors","max_age":86400,"endpoints":[{"url":"https://identity.nel.measure.office.net/api/report?catId=GW+estsfd+frc"}]}
+nel: {"report_to":"network-errors","max_age":86400,"success_fraction":0.001,"failure_fraction":1.0}
+x-ms-srs: 1.P
+referrer-policy: strict-origin-when-cross-origin
+content-security-policy-report-only: object-src 'none'; base-uri 'self'; script-src 'self' 'nonce-WKk3VscuSS_NFQ3p71JrZQ' 'unsafe-inline' 'unsafe-eval' https://*.msauth.net https://*.msftauth.net https://*.msftauthimages.net https://*.msauthimages.net https://*.msidentity.com https://*.microsoftonline-p.com https://*.microsoftazuread-sso.com https://*.azureedge.net https://*.outlook.com https://*.office.com https://*.office365.com https://*.microsoft.com https://*.bing.com 'report-sample'; report-uri https://csp.microsoft.com/report/ESTS-UX-All
+x-xss-protection: 0
+set-cookie: fpc=AvUUIHLaIHpMk41CKxNgiwQ; expires=Sat, 28-Feb-2026 18:11:19 GMT; path=/; secure; HttpOnly; SameSite=None
+set-cookie: esctx=PAQABBwEAAACvnsHKEvvRQb3Bz3Qc7wnafnva_j7v7JjVC2g7hiN7jdpfgnbdh2nkyRzbBh6dBH9I0uHiyTvC8QB5WLeUrqHiTAo1x6EAa60pVx4fCj6Bv-EgFtFIUbeDMOn8elPXDKvGZYe6mmornTCSLAHtGX0DIbV-Z_83RKLFSlhHb1wEXUOJ1vzpuV3Xy87EoZySokwgAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None
+set-cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly
+set-cookie: stsservicecookie=estsfd; path=/; secure; samesite=none; httponly
+date: Thu, 29 Jan 2026 18:11:19 GMT
+content-length: 146
+
+HTTP/2 302 
+content-type: text/html; charset=utf-8
+location: https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.office.com%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=639053070800181856.YTgxNjg2MDItMTJmOS00MDU2LTkyOGYtYTNiNWVlNTVhOWZhYjRlZTk0MzYtOTQwZi00Y2E5LTlmMGItMWE4NjM1MGJhMzM2&ui_locales=en-US&mkt=en-US&client-request-id=79fb4f81-12fa-45d3-848e-0354db9b2523&state=NY2nLwvYDTFbPqDwA9ej4W9uyB_TdP8Tt0vQ7SL_wVpdT9wdKz3VHwNdFwhnzCBsk3tsWtDGyOoRyHpvnKZ25Alz_0OCRrk60O_IqXvoCa46C9ibGKcjeDUJxJL3Ugmo8CindlQw67lcWj4Zts-f6x8LGIKEtBBpIRbNkhT2VGA0W0vEImIb-YS3cmOUQaeQqI0udRS0kl9hxggfsx0bYXAlyA5pjKtF0puFJ9927a-snmlyHEQnbgCjuvgMkE1UwMY0bC6tK03vmk9bxd2n-OkPXfFSQ6H9cjSymM3STi4&x-client-SKU=ID_NET8_0&x-client-ver=8.5.0.0
+set-cookie: OH.SID=07df6c58-2494-44cd-82c5-e922e475e66d; path=/; secure; samesite=none; httponly
+set-cookie: OH.FLID=92bcd644-ee8d-46e4-9265-21eba0d6cdb7; expires=Fri, 29 Jan 2027 18:11:20 GMT; path=/; secure; samesite=none; httponly
+set-cookie: .AspNetCore.OpenIdConnect.Nonce.c8S5632vqvfO1LPO-jsZWaaPDaAWCjx9eACywITvC-ydhVCROt4-6NIK2_pPL7VF0l8pt-qNZmmBOJ61emNTqZxDSFVtpkLt-HLad0utnLB6oHBgKxL-Y9XhJcszrbpPatQFH85R_x7mZaB_4ry1vJJyFbVJHCaOoLemr7ZA8I5bcDT1dmTkEy2BumNKFPcDuijJP0jmLcIUOQBxeNjDI7FAFik5dEnE7-RnpG1LcsYKHIuszdT4waYnXf82vvYv=N; expires=Thu, 29 Jan 2026 18:26:20 GMT; path=/; secure; samesite=none; httponly
+set-cookie: .AspNetCore.Correlation.v7ZMBbIKWriyUbT_O7AP8MvhW1H6gqeHQ2CnQ3EaHS0=N; expires=Thu, 29 Jan 2026 18:26:20 GMT; path=/; secure; samesite=none; httponly
+request-context: appId=
+request-id: 37b96a90-6498-45ae-8afa-e20c979dc584
+strict-transport-security: max-age=31536000; includeSubDomains
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+x-ua-compatible: IE=edge,chrome=1
+x-cache: CONFIG_NOCACHE
+x-msedge-ref: Ref A: BE4F5F9FEEAB48008A6A36091483BF42 Ref B: AMS04EDGE3209 Ref C: 2026-01-29T18:11:20Z
+date: Thu, 29 Jan 2026 18:11:19 GMT
+content-length: 0
+
+HTTP/2 200 
+cache-control: no-store, no-cache
+pragma: no-cache
+content-type: text/html; charset=utf-8
+expires: -1
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+p3p: CP="DSP CUR OTPi IND OTRi ONL FIN"
+x-ms-request-id: 1eb8f246-ba81-422e-8b4d-d2095dd90500
+x-ms-ests-server: 2.1.23276.2 - WEULR1 ProdSlices
+report-to: {"group":"network-errors","max_age":86400,"endpoints":[{"url":"https://identity.nel.measure.office.net/api/report?catId=GW+estsfd+frc"}]}
+nel: {"report_to":"network-errors","max_age":86400,"success_fraction":0.001,"failure_fraction":1.0}
+x-ms-clitelem: 1,50168,0,,
+x-ms-srs: 1.P
+referrer-policy: strict-origin-when-cross-origin
+content-security-policy-report-only: object-src 'none'; base-uri 'self'; script-src 'self' 'nonce-OcUMrSi7xDCUbLirXZHAYg' 'unsafe-inline' 'unsafe-eval' https://*.msauth.net https://*.msftauth.net https://*.msftauthimages.net https://*.msauthimages.net https://*.msidentity.com https://*.microsoftonline-p.com https://*.microsoftazuread-sso.com https://*.azureedge.net https://*.outlook.com https://*.office.com https://*.office365.com https://*.microsoft.com https://*.bing.com 'report-sample'; report-uri https://csp.microsoft.com/report/ESTS-UX-All
+x-xss-protection: 0
+set-cookie: esctx-lGczbqtuc7k=AQABCQEAAACvnsHKEvvRQb3Bz3Qc7wnaFjmgpjVsma6L0gZLW0h2yWcYwfjPhAv_SSEJfKw5_CUF0N2E-Y3rn4I0NNUA_a5uaAIpYdVtyLagBOegN-m1OeLpJqKFvMXHGX00Y1y5q8hdj9WtOKMHQ0_uPTRwjzKbe-E1Jq3J9_RE4t0EAH-kXyAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None
+set-cookie: fpc=AvBFX_dTLptGvek02XkVMjk; expires=Sat, 28-Feb-2026 18:11:20 GMT; path=/; secure; HttpOnly; SameSite=None
+set-cookie: esctx=PAQABBwEAAACvnsHKEvvRQb3Bz3Qc7wna98jEO2zkve-9c5AfypIjFBkY4f1Lv8eDLJQ1kcIXhkvnezggTiWvXAjKG1TddhDa01jH4pi-nYKS8xF3DRGeOxzHGxS_1EhNmvzp3KCjiIONvMeErcetpjVR9BqFV-3A0a9uLYrtqQtUOYMHCC_HGaKNAvp4igF92G4511c1b7wgAA; domain=.login.microsoftonline.com; path=/; secure; HttpOnly; SameSite=None
+set-cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly
+set-cookie: stsservicecookie=estsfd; path=/; secure; samesite=none; httponly
+date: Thu, 29 Jan 2026 18:11:19 GMT
+content-length: 21698
+
+
+# CURL INFO:
+http_code: 200
+effective_url: https://login.microsoftonline.com/
+redirect_count: 0
+size_download: 0
+time_total: 0.146152
+speed_download: 0

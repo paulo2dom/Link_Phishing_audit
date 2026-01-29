@@ -1,0 +1,62 @@
+# DNS Resolution for: login.microsoftonline.com
+# Timestamp: 2026-01-29 18:20:07 UTC
+
+## A Records (IPv4):
+login.mso.msidentity.com.
+ak.privatelink.msidentity.com.
+www.tm.a.prd.aadg.akadns.net.
+20.190.177.21
+20.190.147.7
+20.190.147.4
+20.190.147.6
+20.190.147.5
+20.190.147.12
+20.190.147.8
+20.190.177.23
+
+## AAAA Records (IPv6):
+login.mso.msidentity.com.
+ak.privatelink.msidentity.com.
+www.tm.a.prd.aadg.akadns.net.
+2603:1027:1:108::b
+2603:1027:1:108::5
+2603:1027:1:108::8
+2603:1026:3000:110::2
+2603:1026:3000:108::6
+2603:1027:1:108::4
+2603:1027:1:108::d
+2603:1027:1:108::f
+
+## CNAME Records:
+login.mso.msidentity.com.
+
+## Full A Record Query:
+
+; <<>> DiG 9.20.15-2-Debian <<>> +time=3 +tries=2 A login.microsoftonline.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5069
+;; flags: qr rd ad; QUERY: 1, ANSWER: 11, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;login.microsoftonline.com.	IN	A
+
+;; ANSWER SECTION:
+login.microsoftonline.com. 0	IN	CNAME	login.mso.msidentity.com.
+login.mso.msidentity.com. 0	IN	CNAME	ak.privatelink.msidentity.com.
+ak.privatelink.msidentity.com. 0 IN	CNAME	www.tm.a.prd.aadg.akadns.net.
+www.tm.a.prd.aadg.akadns.net. 0	IN	A	20.190.177.21
+www.tm.a.prd.aadg.akadns.net. 0	IN	A	20.190.147.7
+www.tm.a.prd.aadg.akadns.net. 0	IN	A	20.190.147.4
+www.tm.a.prd.aadg.akadns.net. 0	IN	A	20.190.147.6
+www.tm.a.prd.aadg.akadns.net. 0	IN	A	20.190.147.5
+www.tm.a.prd.aadg.akadns.net. 0	IN	A	20.190.147.12
+www.tm.a.prd.aadg.akadns.net. 0	IN	A	20.190.147.8
+www.tm.a.prd.aadg.akadns.net. 0	IN	A	20.190.177.23
+
+;; Query time: 4 msec
+;; SERVER: 172.26.160.1#53(172.26.160.1) (UDP)
+;; WHEN: Thu Jan 29 18:20:07 WET 2026
+;; MSG SIZE  rcvd: 400
+

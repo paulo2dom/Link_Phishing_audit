@@ -1,0 +1,15 @@
+HTTP/2 200 
+content-type: text/html
+etag: "85de642e1467807f64f7e10807df3869:1711562737.176211"
+last-modified: Tue, 26 Mar 2024 18:16:43 GMT
+server: AkamaiNetStorage
+date: Thu, 29 Jan 2026 18:20:08 GMT
+
+
+
+# CURL INFO:
+http_code: 200
+effective_url: https://www.microsoft.com/
+redirect_count: 0
+size_download: 0
+time_total: 0.464593

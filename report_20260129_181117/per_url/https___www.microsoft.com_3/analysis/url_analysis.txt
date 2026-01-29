@@ -1,0 +1,32 @@
+# Advanced URL Analysis
+# URL: https://www.microsoft.com
+# Timestamp: 2026-01-29 18:11:22 UTC
+
+## URL Structure Analysis
+
+
+URL Structure Risk Factors: 0
+URL_STRUCTURE_RISK=0
+
+## Typosquatting Analysis
+
+⚠️  Possible homograph attack detected
+
+## Security Headers Analysis
+
+⚠️  Missing: Strict-Transport-Security (HSTS)
+⚠️  Missing: Content-Security-Policy
+⚠️  Missing: X-Frame-Options
+⚠️  Missing: X-Content-Type-Options
+
+Security Headers Score: 0/5
+Missing Security Headers: 4
+SECURITY_HEADERS_SCORE=0
+MISSING_HEADERS=4
+
+## Certificate Risk Analysis
+
+✓ Certificate verification: OK
+
+Certificate Risk Score: 0
+CERT_RISK=0

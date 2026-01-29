@@ -1,0 +1,70 @@
+# Content Analysis
+# Timestamp: 2026-01-29 18:20:06 UTC
+
+## Brand Impersonation Detection
+
+  🏢 Google mentioned: 24 times
+  🏢 Gmail mentioned: 1 times
+
+## Urgency & Fear Language
+
+  ⚠️  'expire': 1
+URGENCY_SCORE=1
+
+## Credential Harvesting Indicators
+
+Forms found: 1
+🚨 Credit card related fields: 1
+🚨 SSN/Tax ID related fields: 1
+Form actions found:
+  → action="/search"
+  → action="lX
+  → action="TsIFpc:aGAD7
+  → action="AO4mJ;blur:dOOLne;keydown:YR8sId;mouseenter:QgVLnf"
+  → action="Vjx
+CREDENTIAL_FIELDS=0
+
+## Obfuscation Detection
+
+⚠️  Base64 operations: 4
+ℹ️  Minified/packed content detected (26 long lines)
+OBFUSCATION_SCORE=1
+
+## Redirect & Tracking Analysis
+
+⚠️  Meta refresh redirects: 1
+⚠️  JavaScript redirects: 4
+ℹ️  Possible tracking pixels: 3
+⚠️  Data transmission methods: 4
+
+## Script Analysis
+
+Script tags: 5
+External scripts:
+  → /
+
+## External Resources (top 15)
+
+href="/advanced_search?hl=pt-PT&amp;fg=1"
+href="/history/optout?hl=pt-PT&amp;fg=1"
+href="/history/privacyadvisor/search/unauth?utm_source=googlemenu&amp;fg=1&amp;cctld=com"
+href="https://about.google/?fg=1&amp;utm_source=google-&amp;utm_medium=referral&amp;utm_campaign=hp-header"
+href="https://accounts.google.com/ServiceLogin?hl=pt-PT&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=futura_ex
+href="https://consent.google.com/d?continue=https://www.google.com/&amp;gl=PT&amp;m=0&amp;pc=shp&amp;cm=5&amp;hl=pt-PT&amp;src=4"
+href="https://google.com/search/howsearchworks/?fg=1"
+href="https://mail.google.com/mail/&amp;ogbl"
+href="https://policies.google.com/privacy?hl=pt-PT&amp;fg=1"
+href="https://policies.google.com/privacy?hl=pt-PT&amp;fg=1&amp;utm_source=ucbs"
+href="https://policies.google.com/technologies/cookies?utm_source=ucbs&amp;hl=pt-PT"
+href="https://policies.google.com/terms?hl=pt-PT&amp;fg=1"
+href="https://policies.google.com/terms?hl=pt-PT&amp;fg=1&amp;utm_source=ucbs"
+href="https://store.google.com/?utm_source=hp_header&amp;utm_medium=google_ooo&amp;utm_campaign=GS100042
+href="https://support.google.com/websearch/?p=ws_results_help&amp;hl=pt-PT&amp;fg=1"
+
+## Content Risk Summary
+
+Total Content Risk Score: 17
+Brands Mentioned: 2
+Urgency Indicators: 1
+Password Fields: 0
+CONTENT_RISK_SCORE=17

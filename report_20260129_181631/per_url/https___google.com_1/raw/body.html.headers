@@ -1,0 +1,57 @@
+HTTP/2 301 
+location: https://www.google.com/
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-T7xbBr1sRU1yPirG4CCxfg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+cross-origin-opener-policy: same-origin-allow-popups; report-to="gws"
+report-to: {"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/other"}]}
+permissions-policy: unload=()
+date: Thu, 29 Jan 2026 18:16:31 GMT
+expires: Sat, 28 Feb 2026 18:16:31 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 220
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 200 
+date: Thu, 29 Jan 2026 18:16:31 GMT
+expires: -1
+cache-control: private, max-age=0
+content-type: text/html; charset=UTF-8
+strict-transport-security: max-age=31536000
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-foAuFgRJWz4OiYfzNAiJOw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+cross-origin-opener-policy: same-origin-allow-popups; report-to="gws"
+report-to: {"group":"gws","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gws/other"}]}
+accept-ch: Sec-CH-Prefers-Color-Scheme
+accept-ch: Downlink
+accept-ch: RTT
+accept-ch: Sec-CH-UA-Form-Factors
+accept-ch: Sec-CH-UA-Platform
+accept-ch: Sec-CH-UA-Platform-Version
+accept-ch: Sec-CH-UA-Full-Version
+accept-ch: Sec-CH-UA-Arch
+accept-ch: Sec-CH-UA-Model
+accept-ch: Sec-CH-UA-Bitness
+accept-ch: Sec-CH-UA-Full-Version-List
+accept-ch: Sec-CH-UA-WoW64
+permissions-policy: unload=()
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+server: gws
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+set-cookie: AEC=AaJma5uUWhNGYBPCRBo1EgniTsyDEvSqo_6AKzMpMD7nQbRrVi6Cq_5v_A; expires=Tue, 28-Jul-2026 18:16:31 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+set-cookie: __Secure-ENID=31.SE=beeOs5b_4WaEl93RXbV_kuwM9Xm0G4fpFAESJ8CqFPv4xddUnxCBngJClt6VzN2HQ_uII58P-F8Fh1sfyNuI2iLbKIimeeczB5mWQ3yS2ctc3QFdRtRSNCwqE1huUeGs1VXZekKTeqtZ2jTM7KaQkuOpkDj5-FAcraKYjDGK1szT0cYY3nj9IMHv93wCRIAgjUF1_M3sQJX8fWJh__Fi5ImwX7JlD35kfejoDhIrQn-noYospPpfGKQNAlSiB_5vZvQq_Tzl; expires=Mon, 01-Mar-2027 10:34:49 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+set-cookie: __Secure-BUCKET=CKcD; expires=Tue, 28-Jul-2026 18:16:31 GMT; path=/; domain=.google.com; Secure; HttpOnly
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+accept-ranges: none
+vary: Accept-Encoding
+
+
+# CURL INFO:
+http_code: 200
+effective_url: https://www.google.com/
+redirect_count: 1
+size_download: 0
+time_total: 0.387501
+speed_download: 0

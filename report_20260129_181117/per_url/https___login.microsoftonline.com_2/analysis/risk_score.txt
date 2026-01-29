@@ -1,0 +1,19 @@
+# Risk Score Calculation
+# Timestamp: 2026-01-29 18:11:21 UTC
+
+## Score Breakdown
+
+| Category | Raw Score | Weighted |
+|----------|-----------|----------|
+| Content Analysis | 9 | 18/40 |
+| URL Structure | 0 | 0/20 |
+| Certificate | 0 | 0/15 |
+| Security Headers | 0 | 0/10 |
+| Redirects | 0 | 0/15 |
+
+## Final Risk Score: 18/100
+
+Risk Level: 🟡 LOW
+
+RISK_SCORE=18
+RISK_LEVEL=LOW

@@ -1,0 +1,62 @@
+# Content Analysis
+# Timestamp: 2026-01-29 18:20:09 UTC
+
+## Brand Impersonation Detection
+
+  🏢 Microsoft mentioned: 183 times
+  🏢 Outlook mentioned: 3 times
+  🏢 OneDrive mentioned: 3 times
+  🏢 Teams mentioned: 10 times
+
+## Urgency & Fear Language
+
+  ⚠️  'locked': 1
+URGENCY_SCORE=1
+
+## Credential Harvesting Indicators
+
+Forms found: 1
+🚨 Credit card related fields: 2
+Form actions found:
+  → action="https://www.microsoft.com/en-us/search"
+CREDENTIAL_FIELDS=0
+
+## Obfuscation Detection
+
+✓ No significant obfuscation detected
+OBFUSCATION_SCORE=0
+
+## Redirect & Tracking Analysis
+
+ℹ️  Possible tracking pixels: 3
+
+## Script Analysis
+
+Script tags: 5
+
+## External Resources (top 15)
+
+href="https://account.microsoft.com/"
+href="https://account.microsoft.com/orders"
+href="https://appsource.microsoft.com/en-us/"
+href="https://assets.onestore.ms/cdnfiles/ex
+href="https://azuremarketplace.microsoft.com/en-us/"
+href="https://azure.microsoft.com/en-us/"
+href="https://azure.microsoft.com/en-us/free/students/"
+href="https://careers.microsoft.com/"
+href="https://choice.microsoft.com"
+href="https://copilot.microsoft.com/"
+href="https://developer.microsoft.com/en-us/"
+href="https://developer.microsoft.com/en-us/windows"
+href="https://docs.microsoft.com/en-us/"
+href="https://go.microsoft.com/fwlink/?linkid=2
+href="https://go.microsoft.com/fwlink/?LinkID=2
+(none found)
+
+## Content Risk Summary
+
+Total Content Risk Score: 11
+Brands Mentioned: 4
+Urgency Indicators: 1
+Password Fields: 0
+CONTENT_RISK_SCORE=11

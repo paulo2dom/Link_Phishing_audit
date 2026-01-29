@@ -1,0 +1,31 @@
+# DNS Resolution for: google.com
+# Timestamp: 2026-01-29 18:16:32 UTC
+
+## A Records (IPv4):
+142.250.185.14
+
+## AAAA Records (IPv6):
+2a00:1450:4003:803::200e
+
+## CNAME Records:
+
+## Full A Record Query:
+
+; <<>> DiG 9.20.15-2-Debian <<>> +time=3 +tries=2 A google.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17842
+;; flags: qr rd ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;google.com.			IN	A
+
+;; ANSWER SECTION:
+google.com.		0	IN	A	142.250.185.14
+
+;; Query time: 0 msec
+;; SERVER: 172.26.160.1#53(172.26.160.1) (UDP)
+;; WHEN: Thu Jan 29 18:16:32 WET 2026
+;; MSG SIZE  rcvd: 54
+

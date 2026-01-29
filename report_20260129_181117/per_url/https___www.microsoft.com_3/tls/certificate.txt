@@ -1,0 +1,144 @@
+# TLS Certificate Information for: www.microsoft.com:443
+# Timestamp: 2026-01-29 18:11:21 UTC
+
+## Certificate Chain:
+subject=C=US, ST=WA, L=Redmond, O=Microsoft Corporation, CN=www.microsoft.com
+issuer=C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 04
+Verify return code: 0 (ok)
+
+## Certificate Details:
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            33:02:7d:83:eb:29:7b:23:e5:b0:e5:05:af:00:00:02:7d:83:eb
+        Signature Algorithm: sha384WithRSAEncryption
+        Issuer: C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 04
+        Validity
+            Not Before: Jul 21 18:25:48 2025 GMT
+            Not After : Jul 16 18:25:48 2026 GMT
+        Subject: C=US, ST=WA, L=Redmond, O=Microsoft Corporation, CN=www.microsoft.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:af:0b:da:64:05:90:b8:c6:9b:35:34:c5:bc:c3:
+                    73:5a:9a:c7:e0:c4:b2:65:8f:8b:0c:69:1a:af:51:
+                    dc:24:df:db:22:23:c0:9d:5f:ce:1c:ab:e7:89:ce:
+                    06:cc:b4:45:29:0d:cb:a0:5d:f9:30:05:74:1b:87:
+                    67:f1:25:f0:96:4f:63:74:4a:72:02:34:c7:46:16:
+                    5d:54:e4:bb:e9:bb:4e:2e:68:13:f3:ae:9e:0f:c5:
+                    39:c4:b7:2e:61:d1:2b:10:d7:79:5a:ed:3b:f2:77:
+                    ec:21:7f:d2:03:27:c4:8b:43:27:a0:45:f1:48:ba:
+                    70:35:69:20:f7:ca:42:75:16:01:fb:4f:3a:8f:14:
+                    55:c2:4c:4b:07:ca:36:06:cf:7b:e9:9a:30:04:a1:
+                    1c:fc:8f:63:10:df:62:79:f8:14:7d:22:9b:41:a6:
+                    5c:fa:28:09:9b:12:da:81:6f:8e:c0:5d:a6:43:59:
+                    3f:94:52:79:89:84:3e:bb:92:49:95:36:5b:f0:c5:
+                    ff:37:be:9c:71:eb:ff:b8:32:f7:62:7f:48:60:ad:
+                    36:fb:99:b0:ae:4d:cb:aa:9b:b1:40:73:47:3b:45:
+                    33:43:66:cf:e2:ab:b9:68:55:d5:11:ec:9c:14:ae:
+                    a6:b9:8a:6b:09:1a:fc:5c:10:6d:96:72:ea:67:bc:
+                    2c:69
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : D7:6D:7D:10:D1:A7:F5:77:C2:C7:E9:5F:D7:00:BF:F9:
+                                82:C9:33:5A:65:E1:D0:B3:01:73:17:C0:C8:C5:69:77
+                    Timestamp : Jul 21 18:35:51.424 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:20:10:99:8C:8F:E0:24:4A:53:88:E9:FB:01:
+                                10:69:89:31:5E:54:CA:D1:7D:61:85:7B:15:4F:81:52:
+                                D6:57:87:83:02:21:00:E9:86:C9:80:69:2B:3E:8C:15:
+                                3B:FC:C6:8E:1B:7C:83:C0:39:ED:46:D3:C3:5A:FB:E6:
+                                5E:3B:97:C9:C3:ED:72
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : C2:31:7E:57:45:19:A3:45:EE:7F:38:DE:B2:90:41:EB:
+                                C7:C2:21:5A:22:BF:7F:D5:B5:AD:76:9A:D9:0E:52:CD
+                    Timestamp : Jul 21 18:35:51.400 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:20:05:EB:42:5D:04:33:AF:48:A1:5D:96:F7:
+                                70:37:61:56:23:E3:4A:1A:D7:E1:48:88:3E:A9:C6:76:
+                                7E:67:F3:D6:02:21:00:C5:97:AD:29:61:61:82:60:8C:
+                                FA:5F:D6:63:67:41:0A:57:34:A5:A8:08:7C:4A:6E:6E:
+                                CA:DB:3D:BB:AC:9B:7A
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 1F:56:D1:AB:94:70:4A:41:DD:3F:EA:FD:F4:69:93:55:
+                                30:2C:14:31:BF:E6:13:46:08:9F:FF:AE:79:5D:CC:2F
+                    Timestamp : Jul 21 18:35:51.791 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:06:7A:A3:0B:A2:9F:08:D1:2E:7F:D2:8F:
+                                20:C9:57:0B:12:E9:71:C2:A1:91:D5:87:EE:2E:FF:DB:
+                                91:5E:A1:79:02:20:0B:A9:E5:37:48:64:72:09:D8:62:
+                                43:B1:4A:62:93:DB:BC:AC:57:93:1F:EF:93:42:BE:E1:
+                                4C:2B:FC:77:CE:AE
+            Microsoft Application Policies Extension: 
+                0.0
+..+.......0
+..+.......
+            Microsoft certificate template: 
+                0-.%+.....7.........F...........]...i...>..d..&
+            Authority Information Access: 
+                CA Issuers - URI:http://www.microsoft.com/pkiops/certs/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2004%20-%20xsign.crt
+                OCSP - URI:http://oneocsp.microsoft.com/ocsp
+            X509v3 Subject Key Identifier: 
+                E9:52:C4:12:AC:D4:39:50:FD:21:53:76:3E:1A:0D:92:21:55:FE:23
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:wwwqa.microsoft.com, DNS:www.microsoft.com, DNS:staticview.microsoft.com, DNS:i.s-microsoft.com, DNS:microsoft.com, DNS:c.s-microsoft.com, DNS:privacy.microsoft.com
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2004.crl
+
+            X509v3 Certificate Policies: 
+                Policy: 1.3.6.1.4.1.311.76.509.1.1
+                  CPS: http://www.microsoft.com/pkiops/Docs/Repository.htm
+                Policy: 2.23.140.1.2.2
+            X509v3 Authority Key Identifier: 
+                3B:70:D1:53:E9:76:25:9D:60:A8:CA:66:0F:C6:9B:AE:6F:54:16:6A
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, TLS Web Server Authentication
+    Signature Algorithm: sha384WithRSAEncryption
+    Signature Value:
+        1a:f1:bd:a3:00:ac:50:3c:c5:0e:f7:3d:1e:12:b5:84:9a:97:
+        11:1a:f2:b6:ab:a4:75:b2:38:ca:8c:55:c8:6e:63:b7:83:08:
+        c2:a6:d3:70:50:ea:5b:35:17:25:74:bd:0f:e0:f3:48:b4:66:
+        80:f7:a3:51:f5:c6:f8:44:41:b4:89:5b:9a:b1:b6:ed:6c:cc:
+        0c:11:d5:f0:53:1c:00:46:ac:3c:74:65:18:50:ba:dd:74:b8:
+        d3:d0:75:87:3a:cd:9c:e8:d0:8b:75:ca:ff:ba:2c:66:9b:df:
+        77:2b:9c:f8:62:bd:f2:4f:41:64:5c:b3:7a:9f:f2:57:81:8e:
+        11:bc:fe:60:e3:b4:ae:1c:98:a4:d9:a7:8d:5c:cb:17:ce:71:
+        b9:7c:5f:01:e2:a0:88:88:ab:43:3f:22:c2:37:10:26:f5:04:
+        c7:1d:0c:dd:52:90:20:40:be:9a:fd:e3:a3:ff:e3:5c:7d:e8:
+        33:f2:80:32:ad:22:1e:b9:9a:fa:20:8f:41:32:78:3d:7d:fa:
+        57:b9:10:d1:e3:38:15:8f:58:94:be:f6:c1:1e:1f:3e:ff:d6:
+        d5:29:bc:03:a2:9e:db:ff:41:b7:57:ad:a4:bb:ea:42:45:11:
+        84:82:a6:bb:44:bb:aa:c4:95:a5:a7:dc:6c:aa:63:16:11:a4:
+        39:32:fe:8c:65:ba:d2:a5:ad:2d:68:67:16:5b:c2:bb:e3:e7:
+        2a:03:9c:e0:31:df:97:7c:14:dd:83:ed:56:36:2f:eb:20:e2:
+        6e:d9:3a:f9:6b:ee:4e:8b:2c:7d:61:f6:a6:16:70:e9:ff:57:
+        8d:4e:db:b3:79:ed:13:58:3d:5f:ea:78:b9:68:fb:71:48:8d:
+        66:c4:fc:71:ec:c1:53:23:12:5c:94:3c:7c:68:ab:65:2b:7c:
+        3d:a9:03:29:a6:b2:b2:1a:c4:0e:49:1f:21:81:d4:cd:da:50:
+        36:ba:e3:fe:1f:a3:94:fc:9d:66:dc:2d:31:df:6b:3c:79:e3:
+        3b:f2:56:00:c6:74:8b:b3:92:3c:ad:2f:61:9c:a9:c6:2b:46:
+        2e:8b:7b:a8:c3:1c:68:aa:a3:08:f5:20:0c:7e:ef:cd:fc:c7:
+        43:d5:c0:5c:7f:18:1b:57:1d:ae:bf:77:e2:93:91:d2:bd:7b:
+        21:b1:30:cf:39:c1:5b:12:b0:9c:56:6c:8b:e1:33:4a:4b:6c:
+        1f:2a:d4:e9:0d:ce:4c:e4:f7:16:b6:4b:a6:ae:28:9e:c2:9d:
+        cd:ac:a2:46:a9:62:10:b4:95:10:a8:a3:a1:ff:e5:76:e9:73:
+        ef:0c:da:96:cb:9f:e4:14:07:c8:c7:e9:f9:c7:69:4f:3a:03:
+        5d:b8:16:45:e3:c5:c3:97
+
+## SHA256 Fingerprint:
+sha256 Fingerprint=93:A2:1C:36:17:A3:04:0F:E3:C9:48:67:9A:30:C2:2B:DC:BC:76:F6:4C:32:07:0E:10:E1:EF:D2:03:9F:CB:57
