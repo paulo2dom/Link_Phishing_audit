@@ -370,7 +370,8 @@ analyze_content() {
         echo "## Suspicious Keywords Found:"
         local found=0
         for pattern in "${patterns[@]}"; do
-            local count=$(grep -ciE "$pattern" "$body_file" 2>/dev/null || echo "0")
+            local count
+            count=$(grep -ciE "$pattern" "$body_file" 2>/dev/null) || count=0
             if [[ $count -gt 0 ]]; then
                 echo "  - '$pattern': $count occurrences"
                 found=1
@@ -464,13 +465,13 @@ analyze_url() {
 
     # Store metadata for report generation
     {
-        echo "ORIGINAL_URL=$original_url"
-        echo "EFFECTIVE_URL=$effective_url"
-        echo "STATUS_CODE=$status_code"
-        echo "SERVER=$server"
-        echo "REDIRECT_COUNT=$redirect_count"
-        echo "IPS=$ips"
-        echo "DOMAIN=$domain"
+        echo "ORIGINAL_URL=\"$original_url\""
+        echo "EFFECTIVE_URL=\"$effective_url\""
+        echo "STATUS_CODE=\"$status_code\""
+        echo "SERVER=\"$server\""
+        echo "REDIRECT_COUNT=\"$redirect_count\""
+        echo "IPS=\"$ips\""
+        echo "DOMAIN=\"$domain\""
     } > "$url_dir/metadata.env"
 
     log_success "[$index] Complete: $(redact_url "$original_url")"
